@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "name": "The Fellowship of the Ring",
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "name": "The Two Towers",
+      "authorId": 1,
+      "id": 2
+    },
+    {
+      "name": "The Return of the King",
+      "authorId": 1,
+      "id": 3
+    },
+    {
+      "name": "The Hobbit",
+      "authorId": 1,
+      "id": 4
+    },
+    {
+      "name": "The Raven",
+      "authorId": 2,
+      "id": 5
+    },
+    {
+      "name": "The Song of Fire and Ice",
+      "authorId": 3,
+      "id": 6
+    }
+  ]
+}
