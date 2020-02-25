@@ -1,34 +1,90 @@
 {
-  "books": [
+  "albums": [
     {
-      "name": "The Fellowship of the Ring",
-      "authorId": 1,
-      "id": 1
+      "id": 1,
+      "coverPhoto": "https://www.pexels.com/photo/welcome-to-utah-poster-under-blue-daytime-sky-954289/",
+      "albumName": "Utah National Parks"
     },
     {
-      "name": "The Two Towers",
-      "authorId": 1,
-      "id": 2
+      "id": 2,
+      "coverPhoto": "https://images.pexels.com/photos/259881/pexels-photo-259881.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "albumName": "Big Sky Montana"
     },
     {
-      "name": "The Return of the King",
-      "authorId": 1,
-      "id": 3
+      "id": 3,
+      "coverPhoto": "https://www.pexels.com/photo/arizona-asphalt-automobile-automotive-631522/",
+      "albumName": "Navajo Nation"
     },
     {
-      "name": "The Hobbit",
-      "authorId": 1,
-      "id": 4
+      "id": 4,
+      "coverPhoto": 1,
+      "albumName": 4
     },
     {
-      "name": "The Raven",
-      "authorId": 2,
-      "id": 5
+      "id": 5,
+      "coverPhoto": 2,
+      "albumName": 5
     },
     {
-      "name": "The Song of Fire and Ice",
-      "authorId": 3,
-      "id": 6
+      "name": 6,
+      "coverPhoto": 3,
+      "albumName": 6
+    }
+  ],
+  "pictures": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "url": "https://images.pexels.com/photos/161784/landscape-thor-s-hammer-bryce-canyon-national-park-161784.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "title": "Bryce Canyon"
+    },
+    {
+      "id": 2,
+      "albumId": 1,
+      "url": "https://images.pexels.com/photos/3213712/pexels-photo-3213712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "title": "Monument Valley"
+    },
+    {
+      "id": 3,
+      "albumId": 1,
+      "url": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "title": "Zion"
+    },
+    {
+      "id": 4,
+      "albumId": 2,
+      "url": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "title": "Glacier National Park"
+    },
+    {
+      "id": 5,
+      "albumId": 2,
+      "url": "https://images.pexels.com/photos/635676/pexels-photo-635676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "title": "Horse Riding"
+    },
+    {
+      "id": 6,
+      "albumId": 2,
+      "url": "https://www.pexels.com/photo/agriculture-countryside-daylight-farm-534398/",
+      "title": "Montana Countryside"
+    },
+    {
+      "id": 7,
+      "albumId": 3,
+      "url": "https://images.pexels.com/photos/3225525/pexels-photo-3225525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "title": "South Rim Grand Canyon"
+    },
+    {
+      "id": 8,
+      "albumId": 3,
+      "url": "https://images.pexels.com/photos/3391570/pexels-photo-3391570.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "title": "Sequro National Park"
+    },
+    {
+      "id": 9,
+      "albumId": 3,
+      "url": "https://www.pexels.com/photo/usa-rock-antelope-canyon-slot-45839/",
+      "title": "Antelope Canyon"
     }
   ]
 }
