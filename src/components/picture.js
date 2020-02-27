@@ -4,37 +4,50 @@ import { Link } from "react-router-dom"
 
 export default props => {
   const [photo, setPhoto] = useState({})
-  const [leftLink, setLink] = useState("")
-  const [rightlink] = useState("")
+  const [leftLink, setLeft] = useState("")
+  const [rightlink, setRight] = useState("")
 
   useEffect(() => {
     getPicture(props.match.params.id).then(data => {
       setPhoto(data)
     })
 
-    getLink(props.match.params.id).then(link => {
-      setLeft(links.left)
-      setRight(links.right)
-    })
-    // getsetLeft(props.match.params.id)
-    // setRight(props.match.params.id)
-  }, [props.match.params.id])
+    // getLinks(props.match.params.id).then(link => {
+    //   getLeft(links, left)
+    //   setRight(links.right)
+    // })
+  }, [props.match.params])
 
   return (
     <div className="photo">
       <h1>{photo.name}</h1>
-      <Link to={`/picture/${leftLink}`}>$laquo;</Link>
+      <br />
+      {/* <Link to={`/picture/${leftLink}`}>$laquo;</Link> */}
       <img src={photo.url} />
-      <Link to={`/picture/${rightLink}`}>$raquo;</Link>
+      {/* <Link to={`/picture/${rightLink}`}>$raquo;</Link> */}
     </div>
   )
 }
 
-//     getLinks(props.match.params.id).then(links => {
-//       setLeft (links.left)
-//       setRight (links.right)
+//     // getsetLeft(props.match.params.id)
+//     // setRight(props.match.params.id)
+//   }, [props.match.params.id])
 
-//     })
-//     getsetLeft(props.match.params.id)
-//   }
+//   return (
+//     <div className="photo">
+//       <h1>{photo.name}</h1>
+//       <Link to={`/picture/${leftLink}`}>$laquo;</Link>
+//       <img src={photo.url} />
+//       <Link to={`/picture/${rightLink}`}>$raquo;</Link>
+//     </div>
+//   )
 // }
+
+// //     getLinks(props.match.params.id).then(links => {
+// //       setLeft (links.left)
+// //       setRight (links.right)
+
+// //     })
+// //     getsetLeft(props.match.params.id)
+// //   }
+// // }

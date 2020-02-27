@@ -2,8 +2,8 @@
   "albums": [
     {
       "id": 1,
-      "coverPhoto": "https://www.pexels.com/photo/welcome-to-utah-poster-under-blue-daytime-sky-954289/",
-      "albumName": "Utah National Parks"
+      "coverPhoto": "https://images.pexels.com/photos/1672813/pexels-photo-1672813.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "albumName": "Utah Desert Cliffs"
     },
     {
       "id": 2,
@@ -12,79 +12,133 @@
     },
     {
       "id": 3,
-      "coverPhoto": "https://www.pexels.com/photo/arizona-asphalt-automobile-automotive-631522/",
+      "coverPhoto": "https://images.pexels.com/photos/631522/pexels-photo-631522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "albumName": "Navajo Nation"
     },
     {
       "id": 4,
-      "coverPhoto": 1,
-      "albumName": 4
+      "coverPhoto": "https://images.pexels.com/photos/3106799/pexels-photo-3106799.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "albumName": "California"
     },
     {
       "id": 5,
-      "coverPhoto": 2,
-      "albumName": 5
+      "coverPhoto": "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "albumName": "South Dakota"
     },
     {
-      "name": 6,
-      "coverPhoto": 3,
-      "albumName": 6
+      "id": 6,
+      "coverPhoto": "https://images.pexels.com/photos/2031280/pexels-photo-2031280.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "albumName": "Oregon"
     }
   ],
   "pictures": [
     {
       "id": 1,
-      "albumId": 1,
       "url": "https://images.pexels.com/photos/161784/landscape-thor-s-hammer-bryce-canyon-national-park-161784.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-      "title": "Bryce Canyon"
+      "albumId": 1,
+      "name": "Bryce Canyon"
     },
     {
       "id": 2,
       "albumId": 1,
       "url": "https://images.pexels.com/photos/3213712/pexels-photo-3213712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "title": "Monument Valley"
+      "name": "Monument Valley"
     },
     {
       "id": 3,
       "albumId": 1,
       "url": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "title": "Zion"
+      "name": "Zion"
     },
     {
       "id": 4,
       "albumId": 2,
       "url": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "title": "Glacier National Park"
+      "name": "Glacier National Park"
     },
     {
       "id": 5,
       "albumId": 2,
       "url": "https://images.pexels.com/photos/635676/pexels-photo-635676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "title": "Horse Riding"
+      "name": "Horse Riding"
     },
     {
       "id": 6,
       "albumId": 2,
-      "url": "https://www.pexels.com/photo/agriculture-countryside-daylight-farm-534398/",
-      "title": "Montana Countryside"
+      "url": "https://images.pexels.com/photos/534394/pexels-photo-534394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Montana Countryside"
     },
     {
       "id": 7,
       "albumId": 3,
       "url": "https://images.pexels.com/photos/3225525/pexels-photo-3225525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-      "title": "South Rim Grand Canyon"
+      "name": "South Rim Grand Canyon"
     },
     {
       "id": 8,
       "albumId": 3,
       "url": "https://images.pexels.com/photos/3391570/pexels-photo-3391570.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-      "title": "Sequro National Park"
+      "name": "Sequro National Park"
     },
     {
       "id": 9,
       "albumId": 3,
-      "url": "https://www.pexels.com/photo/usa-rock-antelope-canyon-slot-45839/",
-      "title": "Antelope Canyon"
+      "url": "https://images.pexels.com/photos/3522094/pexels-photo-3522094.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Antelope Canyon"
+    },
+    {
+      "id": 10,
+      "albumId": 4,
+      "url": "https://images.pexels.com/photos/533881/pexels-photo-533881.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Yosemite National Park"
+    },
+    {
+      "id": 11,
+      "albumId": 4,
+      "url": "https://images.pexels.com/photos/3655684/pexels-photo-3655684.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Redwood National Park"
+    },
+    {
+      "id": 12,
+      "albumId": 4,
+      "url": "https://images.pexels.com/photos/449608/pexels-photo-449608.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Golden Gate National Park"
+    },
+    {
+      "id": 13,
+      "albumId": 5,
+      "url": "https://images.pexels.com/photos/532820/pexels-photo-532820.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Mount Rushmore"
+    },
+    {
+      "id": 14,
+      "albumId": 5,
+      "url": "https://images.pexels.com/photos/1753207/pexels-photo-1753207.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Black Hills"
+    },
+    {
+      "id": 15,
+      "albumId": 5,
+      "url": "https://images.pexels.com/photos/146958/pexels-photo-146958.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Crazy Horse"
+    },
+    {
+      "id": 16,
+      "albumId": 6,
+      "url": "https://images.pexels.com/photos/45776/pexels-photo-45776.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "picture1"
+    },
+    {
+      "id": 17,
+      "albumId": 6,
+      "url": "https://images.pexels.com/photos/23381/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Mt. Shasta"
+    },
+    {
+      "id": 18,
+      "albumId": 6,
+      "url": "https://images.pexels.com/photos/3308742/pexels-photo-3308742.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Oregon Coast"
     }
   ]
 }

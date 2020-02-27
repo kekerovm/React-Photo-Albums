@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .wrapper {
   width: 1000px;
   margin: auto;
@@ -19,10 +29,39 @@
   max-width: 100%;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
 .photo img {
   max-width: 700px;
 }
 
 .photo a {
   font-size: 72px;
+}
+
+.imagesAlbum {
+  height: 200px;
+  width: 300px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.photo h1 {
+  position: absolute;
+  top: 0px;
+}
+
+.photo img {
+  position: absolute;
+  top: 100px;
 }
